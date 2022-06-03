@@ -10,7 +10,7 @@
 
 <body>
 
-  <p><h1 id="introduction">To Do List</h1></p>
+  <p><h1 id="title">To Do List</h1></p>
 
   <p id="quote">
     "There is no down time. There is no free time. There is only lifetime."
@@ -20,10 +20,13 @@
 
   <input type="text" name="taskInput" id="taskInput" placeholder="Enter a Task">
   
+  <div id="container">
+    <ul id="taskList">
+      <li></li>
+    </ul>
+  </div>
 
-  <ul id="taskList">
-    <li></li>
-  </ul>
+  <button id="clearTasks">Clear Completed Tasks</button>
 
   <script src="script.js"></script>
 </body>
