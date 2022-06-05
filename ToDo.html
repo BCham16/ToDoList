@@ -10,23 +10,25 @@
 
 <body>
 
-  <p><h1 id="title">To Do List</h1></p>
+  <p><h1 id="title">My To Do List</h1></p>
+  <p id="date">Day, Month Date Year</p>
+
+
+
+  <input type="text" name="taskInput" id="taskInput" placeholder="Enter a Task">
+  
+  <div id="container">
+    <ul id="taskList">
+    </ul>
+  </div>
+
+  <button id="clearTasks">Clear Completed Tasks</button>
 
   <p id="quote">
     "There is no down time. There is no free time. There is only lifetime."
     <br>
     ~Henry Rollins
   </p> 
-
-  <input type="text" name="taskInput" id="taskInput" placeholder="Enter a Task">
-  
-  <div id="container">
-    <ul id="taskList">
-      <li></li>
-    </ul>
-  </div>
-
-  <button id="clearTasks">Clear Completed Tasks</button>
 
   <script src="script.js"></script>
 </body>
